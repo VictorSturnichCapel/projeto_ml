@@ -57,25 +57,3 @@ pandas
 
 scikit-learn
 
-Instale com:
-
-bash
-Copiar
-Editar
-pip install streamlit pandas scikit-learn
-▶️ Executando o App
-bash
-Copiar
-Editar
-streamlit run app.py
-Abra o link exibido no terminal e aproveite! 🍕
-
-📈 Exemplo de Dataset (pizzas.csv)
-csv
-Copiar
-Editar
-diametro,preco
-20,30
-25,40
-30,50
-35,60
