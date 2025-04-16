@@ -1,26 +1,19 @@
-[project]
-name = "projeto-ml"
+[tool.poetry]
+name = "projeto-ml-df"
 version = "0.1.0"
 description = ""
-authors = [
-    {name = "VictorCapelEtapa",email = "victor.capel@etapa.com.br"}
-]
+authors = ["Your Name <you@example.com>"]
 readme = "README.md"
-requires-python = ">=3.13"
-dependencies = [
-    "pandas (>=2.2.3,<3.0.0)",
-    "scikit-learn (>=1.6.1,<2.0.0)",
-    "streamlit (>=1.44.1,<2.0.0)",
-    "matplotlib (>=3.10.1,<4.0.0)"
-]
+packages = [{include = "projeto_ml_df"}]
 
-[tool.poetry]
-packages = [{include = "projeto_ml", from = "src"}]
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.3"
+matplotlib = "^3.10.1"
+streamlit = "^1.44.1"
+scikit-learn = "^1.6.1"
 
-
-[tool.poetry.group.dev.dependencies]
-ipykernel = "^6.29.5"
 
 [build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
+requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
