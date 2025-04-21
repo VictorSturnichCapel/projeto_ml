@@ -7,7 +7,7 @@ df = pd.read_csv('pizzas.csv')
 modelo = LinearRegression()
 x = df[['diametro']]
 y = df[['preco']]
-modelo.fit(x, y) 
+modelo.fit(x, y)
 
 st.title('Calculadora de Preço da Pizza')
 st.divider()
