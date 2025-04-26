@@ -19,3 +19,4 @@ if diametro:
     preco_previsto = modelo.predict([[diametro]])[0][0]
     st.write(f'O preço previsto para uma pizza de {diametro} cm é R$ {preco_previsto:.2f}')
     st.balloons()
+    
