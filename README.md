@@ -27,6 +27,7 @@ import streamlit as st
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 
+
 # Leitura dos dados
 df = pd.read_csv('pizzas.csv')
 
