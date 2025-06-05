@@ -58,4 +58,3 @@ streamlit
 pandas
 
 scikit-learn
-
