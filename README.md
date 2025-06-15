@@ -1,5 +1,6 @@
 🍕 Calculadora de Preço da Pizza
 
+
 Uma aplicação interativa feita com Streamlit que prevê o preço de uma pizza com base em seu diâmetro utilizando regressão linear. Simples, prática e deliciosa! 😄
 
 🚀 Sobre o Projeto
